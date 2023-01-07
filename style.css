@@ -1,0 +1,30 @@
+body {
+  margin:0;
+  position:fixed;
+  top:0;
+  left:0;
+  width:100vw;
+  height:100vh;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(196, 241, 129);
+}
+
+svg {
+  width:calc(min(25vw, 25vh));
+}
+
+img {
+  position:absolute;
+  bottom:12.5vh;
+}
+
+input {
+  position:absolute;
+  top:12.5vh;
+}
+
+#avatar_bg {
+  fill: #0a4e00;
+}
