@@ -2,7 +2,7 @@
 
 For a couple days I could not find an explanation of how to do this simple (seeming!) task!
 
-NB: I believe this sequence only responds to a user-interaction with the webpage.
+Deployment: [Codepen](https://codepen.io/mlorberdev/details/eYjgZmg)
 
 ## Code Abstract
 
@@ -12,7 +12,7 @@ My code does the following:
 * Grab SVG outerHTML (i.e. between the svg tags)
 * URL-encode using replaceAll
 * Create anchor, set href to URL-encoding
-* Append, click and remove anchor (NB: I believe this sequence only responds to a user-interaction with the webpage)
+* Append, click and remove anchor
 
 ### Raw JS
 ```js
