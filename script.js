@@ -16,6 +16,6 @@
     document.body.appendChild(a);
     a.click();
     a.remove();
-  })
+  });
 
 })();
